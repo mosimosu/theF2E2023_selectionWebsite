@@ -7,22 +7,25 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mt-4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <div class="ms-5">
           <img
             src="image/logo.svg"
-            alt=""
-            width="30"
-            height="24"
+            alt="logo"
             class="d-inline-block align-text-top"
           />
-          喵立翰 Miao Li-Han
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <a class="navbar-brand fw-bolder fs-3 align-bottom" href="#">
+            喵立翰 Miao Li-Han
+          </a>
+        </div>
+        <div
+          class="collapse navbar-collapse position-relative fw-bold"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav position-absolute start-50 text-nowrap">
             <li class="nav-item">
-              <a class="nav-link" href="#">候選人主張</a>
+              <a class="nav-link fs-6" href="#">候選人主張</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">最近活動</a>
@@ -38,8 +41,8 @@
             </li>
           </ul>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse position-relative" id="navbarNav">
+          <ul class="navbar-nav position-absolute end-0">
             <li class="nav-item">
               <a class="nav-link" href="#"
                 ><img src="image/fb.svg" alt="facebook"
@@ -59,15 +62,27 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center fs-1">台灣的明天 喵先鋪路</h1>
-    <div class="container">
-      <div class="btn btn-primary">2024立委參選人</div>
-      <div class="btn btn-primary">喵立翰 Miao Li-Han</div>
-    </div>
-    <img src="image/homeImage.svg" alt="homeImage" />
-    <p class="fs-1">
-      為喵星人，護台灣！從喵的眼中，看見台灣 喵的未來，人的希望
-    </p>
+    <section class="text-center top-space">
+      <h1 class="text-center fs-7 primary-text-gradient">
+        台灣的明天 喵先鋪路
+      </h1>
+      <div class="container mb-4 mt-4">
+        <div class="btn btn-text-primary btn-lg btn-radius-primary">
+          2024 立委參選人
+        </div>
+        <div
+          class="btn btn-bg-color-theme-1 shadow ms-3 text-primary-theme btn-radius-primary fw-bold"
+        >
+          <div class="primary-btn-gradient">3</div>
+          喵立翰 Miao Li-Han
+        </div>
+      </div>
+      <img src="image/homeImage.svg" alt="homeImage" class="rounded" />
+      <p class="fs-7 text-nowrap bannerCampain">
+        為喵星人，護台灣！ 從喵的眼中，看見台灣 喵的未來，人的希望
+      </p>
+    </section>
+
     <div>
       <div class="container d-flex">
         <div>

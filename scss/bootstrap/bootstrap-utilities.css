@@ -66,6 +66,41 @@
   color: #1a1e21;
 }
 
+.link-primary-theme {
+  color: #da7d1a;
+}
+.link-primary-theme:hover, .link-primary-theme:focus {
+  color: #e19748;
+}
+
+.link-text-primary {
+  color: #334155;
+}
+.link-text-primary:hover, .link-text-primary:focus {
+  color: #293444;
+}
+
+.link-text-secondary {
+  color: #94a3b8;
+}
+.link-text-secondary:hover, .link-text-secondary:focus {
+  color: #a9b5c6;
+}
+
+.link-bg-color-theme-1 {
+  color: #fdfcfb;
+}
+.link-bg-color-theme-1:hover, .link-bg-color-theme-1:focus {
+  color: #fdfdfc;
+}
+
+.link-bg-color-theme-2 {
+  color: #f7ece1;
+}
+.link-bg-color-theme-2:hover, .link-bg-color-theme-2:focus {
+  color: #f9f0e7;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -443,6 +478,26 @@
 
 .border-dark {
   border-color: #212529 !important;
+}
+
+.border-primary-theme {
+  border-color: #da7d1a !important;
+}
+
+.border-text-primary {
+  border-color: #334155 !important;
+}
+
+.border-text-secondary {
+  border-color: #94a3b8 !important;
+}
+
+.border-bg-color-theme-1 {
+  border-color: #fdfcfb !important;
+}
+
+.border-bg-color-theme-2 {
+  border-color: #f7ece1 !important;
 }
 
 .border-white {
@@ -1147,6 +1202,10 @@
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: calc(1.525rem + 3.3vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -1274,6 +1333,26 @@
   color: #212529 !important;
 }
 
+.text-primary-theme {
+  color: #da7d1a !important;
+}
+
+.text-text-primary {
+  color: #334155 !important;
+}
+
+.text-text-secondary {
+  color: #94a3b8 !important;
+}
+
+.text-bg-color-theme-1 {
+  color: #fdfcfb !important;
+}
+
+.text-bg-color-theme-2 {
+  color: #f7ece1 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -1328,6 +1407,26 @@
 
 .bg-dark {
   background-color: #212529 !important;
+}
+
+.bg-primary-theme {
+  background-color: #da7d1a !important;
+}
+
+.bg-text-primary {
+  background-color: #334155 !important;
+}
+
+.bg-text-secondary {
+  background-color: #94a3b8 !important;
+}
+
+.bg-bg-color-theme-1 {
+  background-color: #fdfcfb !important;
+}
+
+.bg-bg-color-theme-2 {
+  background-color: #f7ece1 !important;
 }
 
 .bg-body {
@@ -3920,6 +4019,9 @@
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .fs-7 {
+    font-size: 4rem !important;
   }
 }
 @media print {

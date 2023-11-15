@@ -2,3 +2,57 @@
   font-family: mantou;
   src: url(../MantouSans-Regular.ttf);
 }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&display=swap");
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.bannerCampain {
+  background-color: #da7d4a;
+  background: #da7d4a;
+  color: white;
+  font-family: mantou;
+}
+
+// scss-designer-color-variables-start
+$primary-gradient: linear-gradient(to right, #e5793b, #ff4185);
+$primary-theme: #da7d1a;
+$text-primary: #334155;
+$text-secondary: #94a3b8;
+$bg-color-theme-1: #fdfcfb;
+$bg-color-theme-2: #f7ece1;
+// scss-designer-color-variables-end
+
+.primary-text-gradient {
+  background-image: $primary-gradient;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: mantou;
+}
+
+.primary-btn-gradient {
+  color: white;
+  background-image: $primary-gradient;
+  border-radius: 50%;
+  display: inline-flex;
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.top-space {
+  margin-top: 10%;
+}
+
+.text-primary-theme {
+  color: $primary-theme;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.btn-radius-primary {
+  border-radius: 0.5rem;
+}
