@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/all.css" />
-    <title>Document</title>
+    <title>The F2E 2023 First Challenge</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mt-4">
@@ -62,10 +62,11 @@
         </div>
       </div>
     </nav>
+
     <section class="text-center top-space">
-      <h1 class="text-center fs-7 primary-text-gradient">
+      <div class="text-center fs-7 primary-text-gradient">
         台灣的明天 喵先鋪路
-      </h1>
+      </div>
       <div class="container mb-4 mt-4">
         <div class="btn btn-text-primary btn-lg btn-radius-primary">
           2024 立委參選人
@@ -73,37 +74,51 @@
         <div
           class="btn btn-bg-color-theme-1 shadow ms-3 text-primary-theme btn-radius-primary fw-bold"
         >
-          <div class="primary-btn-gradient">3</div>
+          <div class="btn-primary-gradient">3</div>
           喵立翰 Miao Li-Han
         </div>
       </div>
       <img src="image/homeImage.svg" alt="homeImage" class="rounded" />
-      <p class="fs-7 text-nowrap bannerCampain">
+      <p class="fs-7 text-nowrap bannerCampain m-0">
         為喵星人，護台灣！ 從喵的眼中，看見台灣 喵的未來，人的希望
       </p>
     </section>
 
-    <div>
-      <div class="container d-flex">
-        <div>
-          <div class="btn btn-secondary">ADVOCATE</div>
-          <h2 class="fs-3">候選人主張</h2>
-          <p class="fs-4">
-            我堅信！藉由推動更完善的<span>貓咪福利</span>和相關政策，更是間接地投資於<span
+    <section class="btn-bg-color-theme-2 p-5">
+      <div class="container text-center d-flex section-radius overflow-hidden">
+        <div class="container btn-bg-color-theme-1 col-6 p-0">
+          <h1 class="fs-6 btn btn-text-primary btn-radius-primary top-space">
+            ADVOCATE
+          </h1>
+          <h3 class="fs-7 text-center primary-text-gradient">候選人主張</h3>
+          <p class="fs-4 fw-bold top-space main-p ms-3">
+            我堅信！藉由推動更完善的<span class="emphasis-p">貓咪福利</span
+            >和相關政策，更是間接地投資於<span class="emphasis-p"
               >台灣的未來</span
             >
           </p>
-          <p class="fs-5">
+          <article class="text-start m-3">
+          <p class="m-0">
             畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的GDP經濟帶來巨大效益。
+          </p>
+          <p>
             因此，我期望能在立法院內推進這些政策，確保每一隻貓咪都能得到他們應有的照顧，同時也為台灣的經濟發展助一臂之力。讓我們一同護航台灣的幸福經濟，從照顧每一隻貓咪開始。
           </p>
         </div>
-        <div><img src="image/please.svg" alt="" /></div>
+      </article>
+
+        <div class="col-6">
+          <img src="image/please.svg" alt="" class="img-fluid"/>
+        </div>
       </div>
-    </div>
-    <div class="btn btn-secondary">LATEST EVENTS</div>
-    <div class="text-center fs-2">最新活動</div>
-    <div>
+    </section>
+
+    <section class="m-0 text-center">
+    <h1 class="btn btn-text-primary btn-radius-primary mt-5">LATEST EVENTS</h1>
+    <h2 class="fs-7 primary-text-gradient">最新活動</h2>
+    
+    <article class="d-flex justify-content-center mt-5">
+      <div>
       <div class="card" style="width: 18rem">
         <img src="image/newspapper.svg" class="card-img-top" alt="..." />
         <div class="card-body">
@@ -115,6 +130,8 @@
           </p>
         </div>
       </div>
+    </div>
+    <div>
       <div class="card" style="width: 18rem">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
@@ -173,28 +190,40 @@
       </div>
       <button class="btn btn-light">查看更多→</button>
     </div>
-    <div class="btn btn-secondary">POLICY ISSUES</div>
-    <div class="text-center fs-2">政策活動</div>
-    <ul>
-      <li class="card">
-        <img src="image/heaven.svg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">為毛孩子謀福利！推動寵物醫療保障方案</p>
+    </article>
+  </section>
+
+  <section class="text-center">
+    <h1 class="btn btn-text-primary">POLICY ISSUES</h1>
+    <h2 class="fs-7 primary-text-gradient">政策活動</h2>
+    <ul class="d-flex justify-content-evenly mt-5">
+      <li class="card card-no-border m-5">
+        <div class="card-body text-start fw-bold main-p lh-1 fs-4">
+          <p class="card-text">為毛孩子謀福利！</p>
+          <p class="card-text">推動寵物醫療保障方案</p>
         </div>
+        <img src="image/insurance.svg" class="card-img-top btn-radius-primary" alt="..." />
+       
       </li>
-      <li class="card">
-        <img src="image/insurance.svg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <p class="card-text">打造休閒天堂！推廣寵物休閒與娛樂場所</p>
+      <li class="card card-no-border m-5">
+        <div class="card-body text-start fw-bold main-p lh-1 fs-4">
+          <p class="card-text">打造休閒天堂！</p>
+          <p>推廣寵物休閒與娛樂場所</p>
         </div>
+        <img src="image/heaven.svg" class="card-img-top btn-radius-primary" alt="..." />
+        
       </li>
-      <li class="card">
-        <img src="image/education.svg" class="card-img-top" alt="..." />
-        <div class="card-body">
+      <li class="card card-no-border m-5">
+        <div class="card-body text-start fw-bold main-p lh-1 fs-4">
           <p class="card-text">推廣寵物飼養教育，讓愛更加專業</p>
         </div>
+        <img src="image/education.svg" class="card-img-top btn-radius-primary" alt="..." />
+        
       </li>
     </ul>
+  </section>
+
+  <section>
     <div class="d-flex">
       <div>
         <h3 class="fs-3">小額支持喵喵</h3>
@@ -209,8 +238,13 @@
         <img src="image/mail.svg" alt="E-mail" />
       </div>
     </div>
+  </section>
+
+  <section>
     <div class="btn btn-secondary">台灣的明天 喵先鋪路</div>
     <div class="text-center fs-2">喵立翰 Miao Li-Han</div>
+  </section>
+
     <footer>
       <div class="container d-flex">
         <div>

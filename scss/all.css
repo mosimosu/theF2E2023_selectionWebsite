@@ -10301,7 +10301,7 @@ textarea.form-control-lg {
   font-family: mantou;
 }
 
-.primary-btn-gradient {
+.btn-primary-gradient {
   color: white;
   background-image: linear-gradient(to right, #e5793b, #ff4185);
   border-radius: 50%;
@@ -10325,4 +10325,28 @@ textarea.form-control-lg {
 
 .btn-radius-primary {
   border-radius: 0.5rem;
+}
+
+.section-radius {
+  border-radius: 5rem;
+}
+
+.bg-color-theme-1 {
+  background-color: #fdfcfb;
+}
+
+.bg-color-theme-2 {
+  background-color: #f7ece1;
+}
+
+.main-p {
+  color: #334155;
+}
+
+.emphasis-p {
+  color: #da7d1a;
+}
+
+.card-no-border {
+  border: none;
 }/*# sourceMappingURL=all.css.map */

@@ -31,7 +31,7 @@ $bg-color-theme-2: #f7ece1;
   font-family: mantou;
 }
 
-.primary-btn-gradient {
+.btn-primary-gradient {
   color: white;
   background-image: $primary-gradient;
   border-radius: 50%;
@@ -55,4 +55,28 @@ $bg-color-theme-2: #f7ece1;
 
 .btn-radius-primary {
   border-radius: 0.5rem;
+}
+
+.section-radius {
+  border-radius: 5rem;
+}
+
+.bg-color-theme-1 {
+  background-color: $bg-color-theme-1;
+}
+
+.bg-color-theme-2 {
+  background-color: $bg-color-theme-2;
+}
+
+.main-p {
+  color: $text-primary;
+}
+
+.emphasis-p {
+  color: $primary-theme;
+}
+
+.card-no-border {
+  border: none;
 }
