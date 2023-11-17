@@ -10287,6 +10287,10 @@ textarea.form-control-lg {
   font-family: "Noto Sans TC", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .bannerCampain {
   background-color: #da7d4a;
   background: #da7d4a;
@@ -10308,6 +10312,18 @@ textarea.form-control-lg {
   display: inline-flex;
   width: 3rem;
   height: 3rem;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.btn-primary-gradient-sm {
+  color: white;
+  background-image: linear-gradient(to right, #e5793b, #ff4185);
+  border-radius: 50%;
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
   justify-content: center;
   align-items: center;
   font-size: x-large;
@@ -10339,6 +10355,14 @@ textarea.form-control-lg {
   background-color: #f7ece1;
 }
 
+.bg-primary-theme {
+  background-color: #da7d1a;
+}
+
+.bg-text-primary {
+  background-color: #334155;
+}
+
 .main-p {
   color: #334155;
 }
@@ -10349,4 +10373,17 @@ textarea.form-control-lg {
 
 .card-no-border {
   border: none;
+}
+
+.box-lg {
+  width: 20vw;
+  height: auto;
+}
+
+.text-color-box {
+  color: #fdfcfb;
+}
+
+.box-font {
+  font-family: mantou;
 }/*# sourceMappingURL=all.css.map */

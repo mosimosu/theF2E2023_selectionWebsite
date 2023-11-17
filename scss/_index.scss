@@ -8,6 +8,10 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .bannerCampain {
   background-color: #da7d4a;
   background: #da7d4a;
@@ -43,6 +47,18 @@ $bg-color-theme-2: #f7ece1;
   font-size: x-large;
 }
 
+.btn-primary-gradient-sm {
+  color: white;
+  background-image: $primary-gradient;
+  border-radius: 50%;
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
 .top-space {
   margin-top: 10%;
 }
@@ -69,6 +85,14 @@ $bg-color-theme-2: #f7ece1;
   background-color: $bg-color-theme-2;
 }
 
+.bg-primary-theme {
+  background-color: $primary-theme;
+}
+
+.bg-text-primary {
+  background-color: $text-primary;
+}
+
 .main-p {
   color: $text-primary;
 }
@@ -79,4 +103,18 @@ $bg-color-theme-2: #f7ece1;
 
 .card-no-border {
   border: none;
+}
+
+//index donation and mailbox
+.box-lg {
+  width: 20vw;
+  height: auto;
+}
+
+.text-color-box {
+  color: $bg-color-theme-1;
+}
+
+.box-font {
+  font-family: mantou;
 }
